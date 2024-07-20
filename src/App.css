@@ -1,11 +1,9 @@
 /* src/App.css */
 .App {
-  text-align: center;
   color: #000000; /* Cor do texto clara para contraste */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
   backdrop-filter: blur(5px); /* Adiciona um desfoque de fundo para um efeito moderno */

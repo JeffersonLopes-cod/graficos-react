@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Table from './components/Table';
 import Chart from './components/Chart';
 import Jovens from './components/Jovens'
-import Resumos from './components/Resumos';
+import Salarial from './components/Salarial';
 
 
 function App() {
@@ -15,6 +15,8 @@ function App() {
       <Chart />
       <br></br>
       <Jovens/>
+      <br></br>
+      <Salarial/>
     </div>
   );
 }

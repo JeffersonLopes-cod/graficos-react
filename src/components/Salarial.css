@@ -1,0 +1,30 @@
+/* GridComponent.css */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "tit-salarial tit-salarial ."
+      "grafico grafico grafico"
+      "explanes explanes explanes";
+  }
+  
+  .grafico {
+    grid-area: grafico;
+    display: flex; /* Para centralizar o conteúdo dentro da área grafico */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+  }
+  
+  .tit-salarial {
+    grid-area: tit-salarial;
+    /* Adicione mais estilos conforme necessário */
+  }
+  
+  .explanes {
+    grid-area: explanes;
+    /* Adicione mais estilos conforme necessário */
+  }
+  
