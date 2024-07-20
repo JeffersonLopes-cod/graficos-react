@@ -14,7 +14,7 @@
 
 @media (max-width: 600px) {
   #chart_div,
-  #pie_chart_div {
+  #chart_div2 {
     max-width: 100%; /* Ajusta o tamanho máximo para dispositivos móveis */
     padding: 15px; /* Reduz o padding para telas menores */
   }
