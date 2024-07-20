@@ -1,6 +1,5 @@
 // src/components/Resumos.js
 import React from 'react';
-import './Resumos.css';
 
 // Componente de Resumo Individual
 const Resumo = ({ title, content }) => (

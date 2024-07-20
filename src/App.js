@@ -5,6 +5,7 @@ import Table from './components/Table';
 import Chart from './components/Chart';
 import Jovens from './components/Jovens'
 import Salarial from './components/Salarial';
+import Gravidez from './components/Gravidez';
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <Jovens/>
       <br></br>
       <Salarial/>
+      <br></br>
+      <Gravidez/>
     </div>
   );
 }

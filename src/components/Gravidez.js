@@ -4,11 +4,11 @@ import { Chart } from 'react-google-charts';
 // Dados dos distritos
 const rawData = [
   ['Distrito', 'População'],
-  ['Brasilândia', 283658],
-  ['Jaraguá', 214796],
-  ['Tremembé', 225512],
-  ['Pirituba', 171632],
-  ['Cachoeirinha', 146866],
+  ['BRasilândia', 12.5],
+  ['Jaraguá', 11.8],
+  ['Jaçanã', 11],
+  ['Tremembé', 10.3],
+  ['Vila Medeiros', 9.6],
 ];
 
 // Ordena os dados por população em ordem decrescente
@@ -16,11 +16,11 @@ const sortedData = rawData.slice(1).sort((a, b) => b[1] - a[1]);
 const chartData = [rawData[0], ...sortedData]; // Adiciona o cabeçalho de volta
 
 const chartOptions = {
-  title: 'Distribuição da População por Distrito - ZN',
+  title: 'Gravidez na Adolescência - ZN',
   chartArea: { width: '50%' },
   hAxis: {
-    title: 'População',
-    minValue: 0,
+    minValue: 0.5,
+    maxValue: 15,
   },
   vAxis: {
     title: 'Distrito',
@@ -28,7 +28,7 @@ const chartOptions = {
   colors: ['#3366cc', '#dc3912', '#ff9900', '#109618', '#990099', '#0099c6', '#dd4477'],
 };
 
-const ChartComponent = () => {
+const Salarial = () => {
   return (
     <div id="chart_div">
       <Chart
@@ -42,4 +42,4 @@ const ChartComponent = () => {
   );
 };
 
-export default ChartComponent;
+export default Salarial;
